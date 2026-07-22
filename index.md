@@ -47,9 +47,9 @@ For your second milestone, explain what you've worked on since your previous mil
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-For your first milestone, describe what your project is and how you plan to build it. You can include:
-- Train a Deep Q-Network (DQN) to autonomously land a spacecraft using reinforcement learning. The project combines the Lunar Lander environment, a neural network, and a reward system to teach the AI through trial and error
-- Successfully trained a baseline DQN model, then began experimenting with different neural network architectures and learning rates to improve landing performance. Trained it to land within the flags.
+
+- Trained a Deep Q-Network (DQN) to autonomously land a spacecraft using reinforcement learning. The project combines the Lunar Lander environment, a neural network, and a reward system to teach the AI through many trials.
+- Successfully trained a baseline DQN model, then began experimenting with different neural network layouts and learning rates to improve landing performance. Trained it to land within the flags.
 - Learning how reinforcement learning differs from traditional programming and understanding how hyperparameters like hidden layers and learning rate affect the AI's behavior. Too much swaying of the lander as it lands.
 - Continue testing different parameters, compare performance across experiments, select the best-performing setup of parameters, and create a final demonstration of the trained AI landing smoothly and successfully within the flags at least 90% of the time.
 
