@@ -35,11 +35,10 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
-- Technical details of what you've accomplished and how they contribute to the final goal
-- What has been surprising about the project so far
-- Previous challenges you faced that you overcame
-- What needs to be completed before your final milestone 
+- Since my first milestone, I experimented with different neural network architectures and learning rates to improve the Deep Q-Network (DQN). After comparing multiple configurations, I found that a [128,64] network with a 0.0002 learning rate produced the most consistent results, landing within the flags 90% of the time.
+- I was surprised that larger neural networks did not always perform better. Some configurations actually reduced performance, showing that choosing the right network architecture was important. Additionally, it was surprising that learning at a slower rate could be beneficial to the lander, showing that faster isn't always better.
+- One of the biggest challenges for me was understanding how each parameter affected the DQN's learning process. By testing one variable at a time and collecting data, I was able to identify a combination that significantly improved landing consistency.
+- Before my final milestone, I plan to complete a quick analysis of the results from my second milestone, research different models which could possibly land the lunar spacecraft better, and then compare the DQN with the other model.
 
 # First Milestone
 
