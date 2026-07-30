@@ -33,7 +33,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uMRnftdsukE?si=_tWN1w0DkoGMnwpf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 - Since my first milestone, I experimented with different neural network architectures and learning rates to improve the Deep Q-Network (DQN). After comparing many combinations, I found that a [128,64] network with a 0.0002 learning rate produced the most consistent results, landing within the flags 90% of the time.
 - I was surprised that larger neural networks did not always perform better. Some configurations actually reduced performance, showing that choosing the right network architecture was important. Additionally, it was surprising that learning at a slower rate could be beneficial to the lander, showing that faster isn't always better.
