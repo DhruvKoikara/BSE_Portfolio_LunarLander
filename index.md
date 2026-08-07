@@ -46,21 +46,57 @@ For my Bluestamp Engineering project, I trained an AI using reinforcement learni
 
 
 # Code
-Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 
-```c++
-void setup() {
-  // put your setup code here, to run once:
-  Serial.begin(9600);
-  Serial.println("Hello World!");
-}
+# Code
 
-void loop() {
-  // put your main code here, to run repeatedly:
+### Milestone 1 — Baseline DQN
 
-}
+The provided model started with two neural network layers containing 64 neurons each and a learning rate of 0.001. I halved this learning rate and was able to achieve moderate success in landing the spacecraft between the flags.
+
+```python
+nn_layers = [64, 64]
+learning_rate = 0.0005
 ```
+### Milestone 2 - Optimized DQN
 
+I tested different neural network configurations and learning rates to improve the lander's landing consistency. My improved configuration used 128 neurons in the first layer, 64 in the second, and a learning rate of 0.0002.
+
+```python
+nn_layers = [128, 64]
+learning_rate = 0.0002
+```
+This configuration gave me more consistent landings and was able to land within the flags about 90% of the time during my testing.
+
+### Milestone 3 - New A2C Model
+
+For my final milestone, I implemented A2C (Advantage Actor-Critic) as a new reinforcement learning algorithm. I used a [128, 64] neural network and experimented with additional A2C parameters including the number of steps and exploration coefficient.
+
+```python
+nn_layers = [128, 64]
+
+learning_rate = 0.0007
+n_steps = 8
+ent_coef = 0.0001
+```
+```python
+policy_kwargs = dict(
+    activation_fn=torch.nn.ReLU,
+    net_arch=nn_layers
+)
+
+model = A2C(
+    "MlpPolicy",
+    train_env,
+    policy_kwargs=policy_kwargs,
+    learning_rate=learning_rate,
+    n_steps=n_steps,
+    ent_coef=ent_coef,
+    gamma=0.99,
+    seed=1,
+    verbose=1
+)
+```
+I then compared A2C with my optimized DQN based on training time, reward, landing behavior, and consistency.
 
 # Other Resources
 - [Bluestamp Engineering Project Notes](https://docs.google.com/document/d/1IQdQ-L8NkyCQ3FZL1m_efOg_2SS5NsGydz_B3h3kJGY/edit?tab=t.0) — Used for project notes, experimentation, and recording observations throughout the Lunar Lander project.
