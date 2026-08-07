@@ -1,5 +1,5 @@
 # AI Lunar Lander
-Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
+For my Bluestamp Engineering project, I trained an AI using reinforcement learning to autonomously land a spacecraft between the flags in the Lunar Lander environment. I experimented with neural network architectures, learning rates, and different AI models like DQN and A2C, overcoming challenges with training and debugging while learning how AI can improve through repeated experimentation.
 
 You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
 ```HTML 
