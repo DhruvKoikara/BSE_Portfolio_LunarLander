@@ -47,8 +47,6 @@ For my Bluestamp Engineering project, I trained an AI using reinforcement learni
 
 # Code
 
-# Code
-
 ### Milestone 1 — Baseline DQN
 
 The provided model started with two neural network layers containing 64 neurons each and a learning rate of 0.001. I halved this learning rate and was able to achieve moderate success in landing the spacecraft between the flags.
