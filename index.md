@@ -20,7 +20,7 @@ You should comment out all portions of your portfolio that you have not complete
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ychKdbRGAEc?si=CUknFtZ69xeNqoUM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-For your final milestone, explain the outcome of your project. Key details to include are:
+
 - Implemented A2C (Advantage Actor-Critic) as a new reinforcement learning model and compared it with my optimized DQN from the previous milestone. I looked at differences in training time, reward, landing behavior, and consistency.
 - My biggest challenge was getting A2C working correctly after adapting the original DQN project. I had to troubleshoot several coding and training issues, but successfully getting a second model running and being able to compare it with DQN was my biggest accomplishment.
 - I learned about reinforcement learning, DQN, A2C, neural networks, learning rates, network architecture, rewards, and model training. I also learned how experimentation and debugging are crucial when developing AI models.
@@ -32,6 +32,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/uMRnftdsukE?si=_tWN1w0DkoGMnwpf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 
 - Since my first milestone, I experimented with different neural network architectures and learning rates to improve the Deep Q-Network (DQN). After comparing many combinations, I found that a [128,64] network with a 0.0002 learning rate produced the most consistent results, landing within the flags 90% of the time.
 - I was surprised that larger neural networks did not always perform better. Some configurations actually reduced performance, showing that choosing the right network architecture was important. Additionally, it was surprising that learning at a slower rate could be beneficial to the lander, showing that faster isn't always better.
