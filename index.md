@@ -97,7 +97,7 @@ model = A2C(
 I then compared A2C with my optimized DQN based on training time, reward, landing behavior, and consistency.
 
 # Other Resources
-- [Bluestamp Engineering Project Notes](https://docs.google.com/document/d/1IQdQ-L8NkyCQ3FZL1m_efOg_2SS5NsGydz_B3h3kJGY/edit?tab=t.0) — Used for project notes, experimentation, and recording observations throughout the Lunar Lander project.
+- [Bluestamp Engineering Project Notes](https://docs.google.com/document/d/1IQdQ-L8NkyCQ3FZL1m_efOg_2SS5NsGydz_B3h3kJGY/edit?tab=t.0) - Used for project notes, experimentation, and recording observations throughout the Lunar Lander project.
 - [Deep Q-Learning — GeeksforGeeks](https://www.geeksforgeeks.org/deep-learning/deep-q-learning/) — Used to learn about Deep Q-Learning and understand how DQN works.
 - [Stable-Baselines3 Documentation](https://stable-baselines3.readthedocs.io/) — Used to understand and implement reinforcement learning algorithms including DQN and A2C.
 
