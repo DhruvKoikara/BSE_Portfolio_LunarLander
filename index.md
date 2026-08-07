@@ -1,4 +1,4 @@
-# Project Name Here
+# AI Lunar Lander
 Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
 
 You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
@@ -49,8 +49,6 @@ For your final milestone, explain the outcome of your project. Key details to in
 - Learning how reinforcement learning differs from traditional programming and understanding how hyperparameters like hidden layers and learning rate affect the AI's behavior. Too much swaying of the lander as it lands.
 - Continue testing different parameters, compare performance across experiments, select the best-performing setup of parameters, and create a final demonstration of the trained AI landing smoothly and successfully within the flags at least 90% of the time.
 
-# Schematics 
-Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
 
 # Code
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
