@@ -6,7 +6,6 @@ For my Bluestamp Engineering project, I trained an AI using reinforcement learni
 |:--:|:--:|:--:|:--:|
 | Dhruv K | Liberty High School | Computer Science | Incoming Junior
 
-**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
 ![Headstone Image](logo.svg)
   
