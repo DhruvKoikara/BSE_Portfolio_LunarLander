@@ -1,4 +1,4 @@
-# AI Lunar Lander
+# Reinforcement Learning Lunar Lander
 For my Bluestamp Engineering project, I trained an AI using reinforcement learning to autonomously land a spacecraft between the flags in the Lunar Lander environment. I experimented with neural network architectures, learning rates, and different AI models like DQN and A2C, overcoming challenges with training and debugging while learning how AI can improve through repeated experimentation.
 
 
